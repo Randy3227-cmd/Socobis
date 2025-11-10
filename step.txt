@@ -1,0 +1,4 @@
+ouvrir build.xml
+changer le chemin de depoiement : 
+        <property name="deploy.dir" value="/opt/wildfly/standalone/deployments"/>
+        -> <property name="deploy.dir" value="C:/wildfly-10.0.0.Final/standalone/deployments"/>

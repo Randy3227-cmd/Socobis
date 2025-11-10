@@ -1,7 +1,7 @@
 <project name="deploy-ejb-socobis" default="deploy" basedir="./build-file">
     <property environment="env"/>
 
-    <property name="deploy.dir" value="/opt/wildfly/standalone/deployments"/>
+    <property name="deploy.dir" value="C:/wildfly-10.0.0.Final/standalone/deployments"/>
 
     <property name="socobis-warname" value="socobis.war"/>
     <property name="socobis-jarname" value="socobis-ejb.jar"/>
